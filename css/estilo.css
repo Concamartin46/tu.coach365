@@ -1,0 +1,175 @@
+.titulo1{
+    color: rgb(4, 0, 0);
+    
+}
+.fondoNavbar{
+    background-color: rgb(229, 255, 0);
+}
+.naavBaar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10% ;
+    position:sticky;
+    top: 0;
+}
+.logoprincipal{
+    width: 300px;
+    cursor: pointer;
+    
+    
+    
+}
+.header{
+    background-color:   (148, 250, 5, 0.722);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10% ;
+    position: sticky;
+    top: 0;
+    
+
+
+}
+.li1{
+    list-style: none;
+    display: inline;
+    padding: 0px 20px;
+    
+}
+
+.proteinas{
+    width: 300px;
+}
+.universal{
+    width: 210px;
+}
+.mapa{
+    width: 400px;
+    height: 200px;
+}
+.quienessomos{
+    color: rgb(4, 3, 3);
+     
+    
+    
+}
+.parrafoquienes{
+    color: rgb(74, 25, 235);
+    border: 4px double rgb(74, 25, 235); 
+    margin: 100px;
+    padding: 100px;
+
+}
+.copy{
+    text-align: end;
+}
+.body{
+    background-color: whitesmoke;
+}
+a{
+    color: rgb(11, 11, 11);
+    font-size: 25px;
+    font-weight: 500px; text-decoration: none;
+    text-transform: uppercase;
+
+}
+.whatsapp{
+    width: 150px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+
+.contenedorProductosseleccionados{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 60px;
+    margin: 35px;
+}
+
+.productosSeleccionados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #8ea4be;
+    border-radius: 5px;
+    box-shadow: 10px 4px 10px rgba(8, 8, 248, 0.954);
+}
+
+.productoImagen{
+    width: 100px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.productoTitulo{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.productoDescripcion{
+    margin-bottom: 20px;
+}
+
+.productoPrecio{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0b1aef;
+}
+.card{
+    display: inline-block;
+    padding:10px 20px ;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin: 20px;
+    
+}
+
+
+
+.productoBtn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #310af5;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin: 20px;
+
+}
+.logooo{
+    width: 300px;
+    cursor: pointer;
+}
+.carousel-item{
+    width: 1000px;
+      height: 500px;
+      display: flex;
+    
+        
+}
+.btnPrinc{
+    background-color: blue;
+    color: rgb(229, 255, 0);
+}
+.btnPrinc:hover {
+    background-color: rgb(229, 255, 0);
+    color: blue;
+}
+
+
+
